@@ -1,0 +1,33 @@
+{
+  "name": "rilatigi",
+  "version": "0.0.0",
+  "description": "A promise-based library to streamline relationship management",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "babel src --out-dir ./dist",
+    "clean": "rimraf ./dist",
+    "coverage": "nyc npm test && nyc report",
+    "prepublish": "npm run test && npm run clean && npm run build",
+    "test": "mocha --compilers js:babel-register --reporter spec --require ./test/index.js ./test/unit/*.js"
+  },
+  "author": "Adriano Di Giovanni <me@adrianodigiovanni.com> (http://adrianodigiovanni.com/)",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.14.0",
+    "babel-preset-es2015": "^6.14.0",
+    "babel-preset-stage-0": "^6.5.0",
+    "bluebird": "^3.4.6",
+    "chai": "^3.5.0",
+    "eslint": "^3.5.0",
+    "eslint-config-standard": "^6.0.1",
+    "eslint-plugin-promise": "^2.0.1",
+    "eslint-plugin-standard": "^2.0.0",
+    "ioredis": "^2.3.0",
+    "mocha": "^3.0.2",
+    "mongodb": "^2.2.10",
+    "nyc": "^8.3.0",
+    "rimraf": "^2.5.4",
+    "sinon": "^1.17.6"
+  },
+  "dependencies": {}
+}
