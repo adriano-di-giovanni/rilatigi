@@ -1,6 +1,6 @@
 {
   "name": "rilatigi",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A Node.js library for streamlining relationship management",
   "main": "dist/index.js",
   "scripts": {
@@ -29,5 +29,16 @@
     "rimraf": "^2.5.4",
     "sinon": "^1.17.6"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adriano-di-giovanni/rilatigi.git"
+  },
+  "bugs": {
+    "url": "https://github.com/adriano-di-giovanni/rilatigi/issues"
+  },
+  "homepage": "https://github.com/adriano-di-giovanni/rilatigi#readme"
 }
