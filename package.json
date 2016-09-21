@@ -1,7 +1,7 @@
 {
   "name": "rilatigi",
   "version": "0.0.0",
-  "description": "A promise-based library to streamline relationship management",
+  "description": "A Node.js library for streamlining relationship management",
   "main": "dist/index.js",
   "scripts": {
     "build": "babel src --out-dir ./dist",
