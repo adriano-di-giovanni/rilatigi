@@ -4,7 +4,7 @@
 [![David](https://img.shields.io/david/adriano-di-giovanni/rilatigi.svg?maxAge=2592000)]()
 [![David](https://img.shields.io/david/dev/adriano-di-giovanni/rilatigi.svg?maxAge=2592000)]()
 [![Build Status](https://travis-ci.org/adriano-di-giovanni/rilatigi.svg?branch=master)](https://travis-ci.org/adriano-di-giovanni/rilatigi)
-[![codecov.io](https://codecov.io/gh/adriano-di-giovanni/rilatigi/branch/master/graph/badge.svg)](https://codecov.io/gh/adriano-di-giovanni/rilatigi)
+[![codecov](https://codecov.io/gh/adriano-di-giovanni/rilatigi/branch/master/graph/badge.svg)](https://codecov.io/gh/adriano-di-giovanni/rilatigi)
 [![Twitter Follow](https://img.shields.io/twitter/follow/codecreativity.svg?style=social&label=Follow&maxAge=2592000)]()
 
 Rilatigi means _to relate_ in esperanto.
