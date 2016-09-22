@@ -1,5 +1,12 @@
 # Rilatigi
 
+[![NPM Version](https://img.shields.io/npm/v/rilatigi.svg?style=flat)](https://www.npmjs.com/package/rilatigi)
+[![David](https://img.shields.io/david/adriano-di-giovanni/rilatigi.svg?maxAge=2592000)]()
+[![David](https://img.shields.io/david/dev/adriano-di-giovanni/rilatigi.svg?maxAge=2592000)]()
+[![Build Status](https://travis-ci.org/adriano-di-giovanni/rilatigi.svg?branch=master)](https://travis-ci.org/adriano-di-giovanni/rilatigi)
+[![codecov.io](https://codecov.io/gh/adriano-di-giovanni/rilatigi/branch/master/graph/badge.svg)](https://codecov.io/gh/adriano-di-giovanni/rilatigi)
+[![Twitter Follow](https://img.shields.io/twitter/follow/codecreativity.svg?style=social&label=Follow&maxAge=2592000)]()
+
 Rilatigi means _to relate_ in esperanto.
 
 Rilatigi is a promise-based relationship CRUD library for Node.js. It aims to streamline relationship CRUD operations when you have to keep multiple data sources synced (i.e. caching layer and persistence layer).

@@ -9,7 +9,7 @@
     "prepublish": "npm run test && npm run clean && npm run build",
     "test": "mocha --compilers js:babel-register --reporter spec --require ./test/index.js ./test/unit/*.js",
     "test:coverage": "nyc --reporter=lcov --reporter=text npm test",
-    "test:codecov": "cat ./coverage/lcov.info | ./node_modules/codecov/bin/codecov"
+    "test:codecov": "cat ./coverage/lcov.info | codecov"
   },
   "author": "Adriano Di Giovanni <me@adrianodigiovanni.com> (http://adrianodigiovanni.com/)",
   "license": "MIT",
