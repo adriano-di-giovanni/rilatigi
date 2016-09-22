@@ -15,7 +15,7 @@ const createGet = resolvers => subject => {
     .reduce(
       (promise, resolver, index, resolvers) => {
         return promise.then(result => {
-          if (result == null) {
+          if (result == null || result.length === 0) {
             if (index > 0) {
               unresolvers.push(resolvers[index - 1])
             }
