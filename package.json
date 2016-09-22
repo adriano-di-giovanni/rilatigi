@@ -1,14 +1,15 @@
 {
   "name": "rilatigi",
-  "version": "0.0.1",
-  "description": "A Node.js library for streamlining relationship management",
+  "version": "0.0.2",
+  "description": "A promise-based relationship CRUD library for Node.js",
   "main": "dist/index.js",
   "scripts": {
     "build": "babel src --out-dir ./dist",
     "clean": "rimraf ./dist",
-    "coverage": "nyc npm test && nyc report",
     "prepublish": "npm run test && npm run clean && npm run build",
-    "test": "mocha --compilers js:babel-register --reporter spec --require ./test/index.js ./test/unit/*.js"
+    "test": "mocha --compilers js:babel-register --reporter spec --require ./test/index.js ./test/unit/*.js",
+    "test:coverage": "nyc --reporter=lcov --reporter=text npm test",
+    "test:codecov": "cat ./coverage/lcov.info | ./node_modules/codecov/bin/codecov"
   },
   "author": "Adriano Di Giovanni <me@adrianodigiovanni.com> (http://adrianodigiovanni.com/)",
   "license": "MIT",
@@ -18,6 +19,7 @@
     "babel-preset-stage-0": "^6.5.0",
     "bluebird": "^3.4.6",
     "chai": "^3.5.0",
+    "codecov": "^1.0.1",
     "eslint": "^3.5.0",
     "eslint-config-standard": "^6.0.1",
     "eslint-plugin-promise": "^2.0.1",
