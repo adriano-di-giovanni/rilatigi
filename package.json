@@ -6,6 +6,7 @@
   "scripts": {
     "build": "babel src --out-dir ./dist",
     "clean": "rimraf ./dist",
+    "lint": "eslint src",
     "prepublish": "npm run test && npm run clean && npm run build",
     "test": "mocha --compilers js:babel-register --reporter spec --require ./test/index.js ./test/unit/*.js",
     "test:coverage": "nyc --reporter=lcov --reporter=text npm test",
@@ -42,5 +43,19 @@
   "bugs": {
     "url": "https://github.com/adriano-di-giovanni/rilatigi/issues"
   },
-  "homepage": "https://github.com/adriano-di-giovanni/rilatigi#readme"
+  "homepage": "https://github.com/adriano-di-giovanni/rilatigi#readme",
+  "directories": {
+    "example": "examples",
+    "test": "test"
+  },
+  "keywords": [
+    "crud",
+    "mongo",
+    "mutual",
+    "promise",
+    "redis",
+    "relation",
+    "relationship",
+    "unmutual"
+  ]
 }
